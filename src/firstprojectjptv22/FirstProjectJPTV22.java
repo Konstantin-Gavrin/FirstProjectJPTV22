@@ -20,11 +20,11 @@ public class FirstProjectJPTV22 {
         
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Введите имя: ");
+        System.out.print("Введите имя:  ");
         String firstname = scanner.nextLine();
         System.out.print("Введите фамилию: ");
         String lastname = scanner.nextLine();
-        System.out.print("Введите год рождения: ");
+        System.out.print("Введите год rozdenia: ");
         int birthdate = scanner.nextInt();
         int currentYear = 2023;
         int age = currentYear - birthdate;
