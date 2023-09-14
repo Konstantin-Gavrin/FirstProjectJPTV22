@@ -38,7 +38,7 @@ public class App {
 
                     break;
                 default:
-                    System.out.println("Выберите задачу из списка!");
+                    System.out.println("Выберите задачу из  списка!");
             }
         } while (repeat);        
         
