@@ -18,19 +18,22 @@ public class FirstProjectJPTV22 {
      */
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//        
+//        System.out.print("Введите имя:  ");
+//        String firstname = scanner.nextLine();
+//        System.out.print("Введите фамилию: ");
+//        String lastname = scanner.nextLine();
+//        System.out.print("Введите год rozdenia: ");
+//        int birthdate = scanner.nextInt();
+//        int currentYear = 2023;
+//        int age = currentYear - birthdate;
+//        
+//        System.out.println("Hello, " + lastname + " " + firstname); 
+//        System.out.println("Your age: " + age );
         
-        System.out.print("Введите имя:  ");
-        String firstname = scanner.nextLine();
-        System.out.print("Введите фамилию: ");
-        String lastname = scanner.nextLine();
-        System.out.print("Введите год rozdenia: ");
-        int birthdate = scanner.nextInt();
-        int currentYear = 2023;
-        int age = currentYear - birthdate;
-        
-        System.out.println("Hello, " + lastname + " " + firstname); 
-        System.out.println("Your age: " + age );
+        App app = new App();
+        app.run();
     }
     
 }
